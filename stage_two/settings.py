@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(k6cjxx9c%oo#vqf%wjg#s@sxg8=3%c1%%=fm(u6v+s_afp430'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://delight-hng-1.onrender.com/']
 
 
 # Application definition
