@@ -10,6 +10,7 @@ from .serializers import PersonSerializer
 class API(APIView):
 
     def post(self, request):
+        print(request.data)
         serializer = PersonSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
