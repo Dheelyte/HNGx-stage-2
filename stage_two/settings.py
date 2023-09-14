@@ -84,6 +84,17 @@ DATABASES = {
     }
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': os.environ.get("DATABASE_ENGINE"),
+#         'NAME': os.environ.get("DATABASE_NAME"),
+#         'USER': os.environ.get("DATABASE_USER"),
+#         'PASSWORD': os.environ.get("DATABASE_PASSWORD"),
+#         'HOST': os.environ.get("DATABASE_HOST"),
+#         'PORT': os.environ.get("DATABASE_PORT")
+#     }
+# }
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -159,4 +170,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
-DATABASES['default']['ENGINE'] = os.environ.get("DATABASE_ENGINE")
