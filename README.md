@@ -1,12 +1,28 @@
 # HNGx Stage 2 Task
 
-## UML Diagram
-[Diagram Link](https://github.com)
+## UML Diagrams
+### Class Diagram
+[Class Diagram Image](https://github.com/Dheelyte/HNGx-stage-2/blob/main/class-uml.png)
+
+### Activity Diagram
+[Activity Diagram Image](https://github.com/Dheelyte/HNGx-stage-2/blob/main/activity-uml.png)
+
+### Deployment Diagram
+[Deployment Diagram Image](https://github.com/Dheelyte/HNGx-stage-2/blob/main/deployment-uml.png)
+
+<br>
+
+## DOCUMENTATION
+[DOCUMENTATION.md](https://github.com/Dheelyte/HNGx-stage-2/blob/main/DOCUMENTATION.md)
+
+<br>
 
 ## Technologies
 - Python
 - Django
 - Django REST Framework
+
+<br>
 
 ## Project Set-up Instructions
 
