@@ -10,7 +10,9 @@ from .serializers import PersonSerializer
 class API(APIView):
 
     def get(self, request):
-        return Response({"message": "GET Request not supported"}, status=status.HTTP_200_OK)
+        persons = Person.objects.all()
+        serializer = PersonSerializer(persons, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
     def post(self, request):
         print(request.data)
